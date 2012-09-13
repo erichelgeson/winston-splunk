@@ -6,6 +6,7 @@ A [splunk][2] transport for [winston][0]. Inspired by [winston-greylog2][1].
 Tested on node-0.6.x, requires npm.
 
 ``` sh
+  $ # Currently not in npm use git for now.
   $ npm install winston
   $ npm install winston-splunk
 ```
@@ -15,6 +16,14 @@ Tested on node-0.6.x, requires npm.
   var winston = require('winston');
   winston.add(require('winston-splunk').splunk, options);
 
+```
+## Splunk props.conf
+Example props.conf
+```
+[udp:54321]
+NO_BINARY_CHECK=1
+SHOULD_LINEMERGE=false
+TIME_PREFIX={"_timestamp":
 ```
 
 Options are the following:
