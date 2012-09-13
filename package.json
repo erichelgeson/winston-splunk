@@ -1,0 +1,40 @@
+{
+  "name": "winston-splunk",
+  "description": "A Splunk transport for winston",
+  "version": "0.1.0",
+  "author": {
+    "name": "Eric Helgeson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erichelgeson/winston-splunk.git"
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "splunk"
+  ],
+  "devDependencies": {
+    "winston": "0.4.x",
+    "vows": "0.5.x"
+  },
+  "main": "./lib/winston-splunk",
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "_id": "winston-splunk@0.1.0",
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.4",
+  "_nodeVersion": "v0.6.12",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "536362e511a0837a8ae23c797db8e5e7ba9f1525"
+  },
+  "_from": "winston-splunk"
+}
