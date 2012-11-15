@@ -3,10 +3,9 @@
 A [splunk][2] transport for [winston][0]. Inspired by [winston-greylog2][1].
 
 ## Installation
-Tested on node-0.6.x, requires npm.
+Tested on node-0.6.x and 0.8.x, requires npm & winston.
 
 ``` sh
-  $ # Currently not in npm use git for now.
   $ npm install winston
   $ npm install winston-splunk
 ```
