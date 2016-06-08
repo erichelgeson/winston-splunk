@@ -2,6 +2,8 @@
 
 A [splunk][2] transport for [winston][0]. Inspired by [winston-greylog2][1].
 
+This project is no longer maintained. Feel free to fork.
+
 ## Installation
 Tested on node-0.6.x and 0.8.x, requires npm & winston.
 
