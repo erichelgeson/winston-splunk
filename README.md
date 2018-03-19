@@ -36,6 +36,7 @@ Options are the following:
 * __splunkPort:__ Port to send messages to on the Splunk server. (default: 54321)
 * __splunkHostname:__ The hostname associated with Splunk messages. (default: require('os').hostname())
 * __splunkFacility:__ The Splunk facility to send log messages.. (default: nodejs)
+* __splunkTransport:__ Select tcp or udp transport. Splunk's docker image requires tcp transport. (default: udp)
 
 [0]: https://github.com/flatiron/winston
 [1]: https://github.com/flite/winston-graylog2 
